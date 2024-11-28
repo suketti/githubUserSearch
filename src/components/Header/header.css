@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.sitename {
+    color: var(--text-color-two);
+}
+
+.theme-toggle {
+    color: var(--text-color-one);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    transition: transform .3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.3);
+    color: var(--theme-toggle-hover-color)
+}
